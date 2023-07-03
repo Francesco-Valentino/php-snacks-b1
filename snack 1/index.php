@@ -45,16 +45,13 @@
                     'point_team_1' => 88,
                     'point_team_2' => 89
                 ],
-            ];
-            
-            <pre>
-                foreach($matches as $element){
-                    foreach($element as $key => $value){
-                        echo $element['team1'] . "-" . $element['team2'] . "|" . $element["point_team_1"] . "-" $element["point_team_2"];
-                    };
-                };
-            </pre>
-            
+            ];  
         ?>
+
+        <?php foreach($matches as $match){ ?>
+            <pre>
+                
+            </pre>
+        <?php }?>        
     </body>
 </html>
